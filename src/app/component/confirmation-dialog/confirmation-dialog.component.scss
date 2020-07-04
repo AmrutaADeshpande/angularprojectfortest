@@ -1,0 +1,47 @@
+
+ 
+    .modal-content{
+        top: 24px;
+        border-radius: 0;
+    }
+    .msgtitle{
+        font-size: 22px!important;
+        font-family: ProximaNovaRegular!important;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .submsg{
+        font-size: .929rem!important;
+        font-family: ProximaNovaLight;
+    }
+    .btns{
+        padding-top: 20px;
+        margin-bottom: 10px;
+    }
+    .btn-secondary:hover {
+         color: white !important;
+    }
+    .leavepg{
+        background:var(--alertred) ;
+        border:var(--alertred) ;
+        margin-right: 18px;
+        font-size: .929rem;
+        border-radius: 2px;
+        font-family: ProximaNovaLight;
+    }
+    .alertimgwidth{
+        width: 24px;
+        height: 24px;
+        position: relative;
+        bottom: 4px;
+        margin-right: 3px;
+    }
+    .staypg{
+        background: white;
+        border-radius: 2px;
+        color: #3c3c3c;
+        border: solid 1px #c4c4c4;
+        font-size: .929rem;
+        font-family: ProximaNovaLight;
+    }
+

@@ -1,0 +1,9 @@
+<div class="modal-body text-center">
+  <p class="msgtitle">{{ title }} </p>
+  <p class="submsg">{{ message }} </p>
+  <div class="btns">
+    <button type="button" (click)="decline()" class="btn btn-secondary leavepg">{{ btnCancelText }}</button>
+    <button type="button" data-dismiss="modal" class="btn btn-primary staypg"
+      (click)="accept()">{{ btnOkText }}</button>
+  </div>
+</div>
